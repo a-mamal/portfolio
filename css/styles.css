@@ -45,6 +45,25 @@ body {
     text-decoration: underline;
 }
 
+/*contact*/
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-list li {
+    margin-bottom: 0.5em;
+}
+
+.contact-list a {
+    color: #777;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
 /* Main content */
 .main-content {
     flex: 1;
