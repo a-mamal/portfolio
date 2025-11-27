@@ -158,3 +158,37 @@ section h2 {
 .proj-item ul li {
     margin-bottom: 0.3em;
 }
+
+.proj-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+.proj-text {
+    flex: 2;
+}
+
+.proj-image{
+    flex: 1;
+    padding-top: 1.2em;
+}
+
+.proj-image img {
+    width: 100%;    
+    max-width: 420px;
+    min-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 850px) {
+    .proj-content {
+        flex-direction: column;
+    }
+
+    .proj-image img {
+        width: 100%;
+        max-width: 420px;
+    }
+}
