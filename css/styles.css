@@ -134,6 +134,7 @@ section h2 {
     color: #777;
 }
 
+/*links*/
 .edu-item a,
 .lang-item a,
 .exp-item a,
@@ -158,6 +159,7 @@ section h2 {
     color: white;
 }
 
+/*lists*/
 .exp-item ul,
 .proj-item ul {
     padding: 1.2em 0 0 1.2em;
@@ -170,12 +172,14 @@ section h2 {
     margin-bottom: 0.3em;
 }
 
+.cert-content,
 .proj-content {
     display: flex;
     align-items: flex-start;
     gap: 1.5em;
 }
 
+.cert-text,
 .proj-text {
     flex: 2;
 }
@@ -183,6 +187,13 @@ section h2 {
 .proj-image{
     flex: 1;
     padding-top: 1.2em;
+}
+
+.cert-image img{
+    width: 100%;
+    max-width: 180px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
 }
 
 .proj-image img {
