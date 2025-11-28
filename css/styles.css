@@ -213,9 +213,7 @@ section h2 {
 }
 
 .hamburger {
-    background: #555;
-    border-radius: 4px;
-    border: none;
+    display: none;
 }
 
 .hamburger svg{
@@ -258,5 +256,8 @@ section h2 {
         top: 1em;
         left: 1em;
         z-index: 1100; /* above sidebar */
+        background: #555;
+        border-radius: 4px;
+        border: none;
     }
 }
