@@ -72,6 +72,18 @@ body {
     text-decoration: underline;
 }
 
+/* note */
+.sidebar-note {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: 1rem;
+    line-height: 1.4;
+}
+.sidebar-note a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
 /* Main content */
 .main-content {
     flex: 1;
